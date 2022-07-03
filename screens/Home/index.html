@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="logo">
+      <nav>E-Store</nav>
+      <img
+        id="on-off"
+        src="/assets/images/onOff.png"
+        height="40vh"
+        width="35vw"
+        onclick="logout()"
+      />
+    </header>
+    <div class="mainWrapper" id="mainDiv">
+      <h1>Products</h1>
+      <div class="scrollWrapper" id="scroll">
+        <!-- <div class="product" id="scrollable" >
+                <img src="/assets/images/product-1.png">
+                <div class="addToCartDiv" >
+
+                    Iphones
+                    <button class="addToCartBtn">addToCart</button>
+                </div>
+            </div> -->
+        <!-- <div class="product" id="scrollable" ></div>     -->
+        <!-- <div class="addToCartDiv" id="addToCartDiv"> -->
+          <!-- <h2>Cart</h2> -->
+          <!-- <button class="processBtn">process</button> -->
+          <!-- <div class="cartInnerwrapper"> -->
+              
+            <!-- <div class="cartItem">
+                <p>dsdsddsd </p>
+                <button class="addToCartBtn">remove</button>
+            </div> -->
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/app.js"></script>
 </html>

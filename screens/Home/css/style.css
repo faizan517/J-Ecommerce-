@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.logo {
+  background-color: darkblue;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.mainWrapper {
+  height: 90vh;
+  width: 100vw;
+  background-color: rgb(145, 141, 141);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.scrollWrapper {
+  height: 75vh;
+  width: 95%;
+  /* background-color: gray; */
+  overflow-x: scroll;
+}
+.picSize {
+  height: 80%;
+  width: 100%;
+}
+.addTo {
+  /* background-color: yellowgreen; */
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addToCartBtn {
+  height: 45%;
+  width: 30%;
+  
+}
+.product {
+  height: 45%;
+  width: 100%;
+  /* background-color: blueviolet; */
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  font-size: 3vmax;
+  text-align: center;
+}
+.addToCartDiv{
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  background-color: blue;
+
+}
+.cartInnerwrapper{
+  height: 100%;
+  width: 100%;
+  background-color: coral;
+  display: flex;
+  align-items: flex-start;
+}
+.cartItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15%;
+  width: 100%;
+  background-color: chartreuse;
+}
+.processBtn{
+  height: 5vh;
+  width: 30vw;
+}

@@ -32,7 +32,6 @@
     flex-direction: column;
 }
 .withinLoginW{
-    /* background-color: blue; */
     height: 35vh;
     width: 80vw;
     display: flex;
